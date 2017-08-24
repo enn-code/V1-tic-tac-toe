@@ -1,0 +1,46 @@
+#grid {
+	width: 100%;
+}
+
+.grid-row {
+
+}
+
+.grid-square {
+	background-color: red;
+	width: 30%;
+	height: 30%;
+	display: inline-block;
+	text-align: center;
+	border: black 2px solid;
+	margin: 5px;
+}
+
+.selected-blue {
+	background-color: blue;
+}
+
+.selected-green {
+	background-color: green;
+}
+
+.text-blue {
+	color: blue;
+}
+
+.text-green {
+	color: green;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.winner-header {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	font-size: 4em;
+	color: black;
+	background-color: yellow;
+}
