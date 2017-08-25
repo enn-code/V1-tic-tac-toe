@@ -49,7 +49,7 @@
       
       // Check rows
       fnCheckLine('0-0', '0-1', '0-2', team);
-      fnCheckLine('1-0', '1-1', '2-2', team);
+      fnCheckLine('1-0', '1-1', '1-2', team);
       fnCheckLine('2-0', '2-1', '2-2', team);
 
       // Check columns
@@ -72,7 +72,6 @@
       victory = true;
       var winnerEl = document.getElementById('winnerId');
       winnerEl.innerText = 'VICTORY TEAM ' + team.toUpperCase();
-      return alert('VICTORY TEAM ' + team.toUpperCase());
     }
   }
 
